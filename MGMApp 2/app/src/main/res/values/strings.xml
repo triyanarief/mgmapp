@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Bank Mega Referral</string>
+
+    <string name="title_activity_home">Home</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="welcome1">Welcome to Bank Mega Referral!</string>
+    <string name="welcome2">Aplikasi Multi Level Referral </string>
+    <string name="welcome3">untuk membantu Anda mengajak rekan dan keluarga memiliki kartu kredit Bank Mega.</string>
+    <string name="welcome4">Daftarkan kartu kredit Bank Mega</string>
+    <string name="welcome5">untuk rekan dan keluarga di aplikasi ini.</string>
+    <string name="welcome6">Tinggal KLIK dan UPLOAD!</string>
+    <string name="welcome7">Member Get Member!</string>
+    <string name="limit_npwp">Wajib upload NPWP jika limit yang diajukan lebih dari Rp. 50 juta</string>
+    <string name="email">Email</string>
+    <string name="limit">Kredit limit yang diajukan</string>
+    <string name="nama_referensi">Nama Pemberi Referensi</string>
+    <string name="nama">Nama</string>
+    <string name="no_ponsel">Nomor Ponsel</string>
+    <string name="nomor_hp_lainnya">Nomor Hp Lainnya (Optional)</string>
+    <string name="nomor_hp">Nomor Ponsel</string>
+    <string name="nomot_telepon">Nomor Telepon (Optional)</string>
+    <string name="simpan">Simpan</string>
+    <string name="upload_foto_cc_bank_lain">Upload Foto KK Bank Lain</string>
+    <string name="upload_foto_ktp">Upload Foto KTP</string>
+    <string name="upload_foto_kartu_nama">Upload Foto Kartu Nama (Optional)</string>
+    <string name="upload_foto_npwp">Upload Foto NPWP (Optional)</string>
+    <string name="nama_perusahaan">Nama Perusahaan</string>
+    <string name="api_uri">http://mlrapp.com/index.php/api/</string>
+    <string name="sukses_simpan">Calon nasabah yang di-refer akan dihubungi Bank Mega untuk verifikasi kelengkapan data dan dokumen.</string>
+    <string name="error_msg">Maaf, Terjadi Kesalahan</string>
+</resources>

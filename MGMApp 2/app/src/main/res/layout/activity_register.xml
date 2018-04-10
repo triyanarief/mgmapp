@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="id.kosan.mgmapp.RegisterActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="132dp"
+        android:width="300dp"
+        android:id="@+id/txtNama"
+        android:background="@drawable/button_white"
+        android:hint="Nama Lengkap" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/txtNama"
+        android:layout_alignLeft="@+id/txtNama"
+        android:layout_alignStart="@+id/txtNama"
+        android:layout_marginTop="25dp"
+        android:width="300dp"
+        android:id="@+id/txtNomorKartu"
+        android:background="@drawable/button_white"
+        android:hint="Nomor KK Bank Mega" />
+
+    <Button
+        android:text="Daftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegister"
+        android:background="@drawable/button_white"
+        android:layout_below="@+id/txtNomorKartu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" />
+</RelativeLayout>

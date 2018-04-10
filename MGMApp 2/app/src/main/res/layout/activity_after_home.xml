@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="id.kosan.mgmapp.AfterHomeActivity">
+
+    <Button
+        android:text="Daftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegister"
+        android:background="@drawable/button_white"
+        android:layout_marginTop="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:background="@drawable/button_white"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btnRegister"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

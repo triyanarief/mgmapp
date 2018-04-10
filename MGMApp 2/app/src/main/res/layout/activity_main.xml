@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.kosan.mgmapp.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:background="@drawable/text_dark"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:id="@+id/txtNamaPemberiReferensi"
+                    android:hint="@string/nama_referensi" />
+
+                <!--<EditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:inputType="textPersonName"-->
+                    <!--android:ems="10"-->
+                    <!--android:background="@drawable/text_dark"-->
+                    <!--android:layout_marginBottom="@dimen/activity_horizontal_margin"-->
+                    <!--android:id="@+id/txtNamaPerusahaan"-->
+                    <!--android:hint="@string/nama_perusahaan" />-->
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:ems="10"
+                    android:background="@drawable/text_dark"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:id="@+id/txtNoPonsel"
+                    android:hint="@string/no_ponsel" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:ems="10"
+                    android:background="@drawable/text_dark"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:id="@+id/txtEmail"
+                    android:hint="@string/email" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:text="Data Calon Nasabah"/>
+
+                <com.guna.libmultispinner.MultiSelectionSpinner
+                    android:id="@+id/ddlJenisKartu"
+                    android:background="@drawable/text_light"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:background="@drawable/text_light"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:ems="10"
+                    android:id="@+id/txtNama"
+                    android:hint="@string/nama" />
+
+                <!--<EditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:inputType="textEmailAddress"-->
+                    <!--android:background="@drawable/text_light"-->
+                    <!--android:layout_marginBottom="@dimen/activity_horizontal_margin"-->
+                    <!--android:ems="10"-->
+                    <!--android:id="@+id/txtEmailPemohon"-->
+                    <!--android:hint="@string/email" />-->
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_light"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:inputType="phone"
+                    android:ems="10"
+                    android:id="@+id/txtHpPemohon"
+                    android:hint="@string/nomor_hp" />
+
+                <!--<EditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:inputType="phone"-->
+                    <!--android:background="@drawable/text_light"-->
+                    <!--android:layout_marginBottom="@dimen/activity_horizontal_margin"-->
+                    <!--android:ems="10"-->
+                    <!--android:id="@+id/txtHpPemohon2"-->
+                    <!--android:hint="@string/nomor_hp_lainnya" />-->
+
+                <!--<EditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:inputType="phone"-->
+                    <!--android:background="@drawable/text_light"-->
+                    <!--android:layout_marginBottom="@dimen/activity_horizontal_margin"-->
+                    <!--android:ems="10"-->
+                    <!--android:id="@+id/txtTeleponPemohon"-->
+                    <!--android:hint="@string/nomot_telepon" />-->
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgKtp" />
+
+                <Button
+                    android:text="@string/upload_foto_ktp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_light"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:id="@+id/btnKtp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgCCBankLain" />
+
+                <Button
+                    android:text="@string/upload_foto_cc_bank_lain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_light"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:id="@+id/btnCCBankLain" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgNPWP" />
+
+                <Button
+                    android:text="@string/upload_foto_npwp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_light"
+                    android:id="@+id/btnNPWP" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="8sp"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:text="@string/limit_npwp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgKartuNama" />
+
+                <Button
+                    android:text="@string/upload_foto_kartu_nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_light"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:id="@+id/btnKartuNama" />
+
+                <Button
+                    android:text="Submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_blue"
+                    android:textColor="@color/white"
+                    android:id="@+id/btnSimpan"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
